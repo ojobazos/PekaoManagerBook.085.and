@@ -1,0 +1,10 @@
+{
+    data: [
+        {
+            id: 101,
+            url: "ManagerBook_LGL70",
+            title: "Podręcznik Menedżera",
+            logo: "logo.png"
+        }
+    ]
+}
