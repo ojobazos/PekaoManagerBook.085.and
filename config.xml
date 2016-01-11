@@ -24,6 +24,15 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
     <icon src="icon.png" />
+<feature name="network" required="false" />
+<feature name="camera" required="false" />
+<feature name="notification" required="false" />
+<feature name="geolocation" required="false" />
+<feature name="media" required="false" />
+<feature name="contacts" required="false" />
+<feature name="file" required="false" />
+<feature name="battery" required="false" />
+<feature name="device" required="false" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
