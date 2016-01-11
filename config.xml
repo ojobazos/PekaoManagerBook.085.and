@@ -24,15 +24,6 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
     <icon src="icon.png" />
-<feature name="network" required="false" />
-<feature name="camera" required="false" />
-<feature name="notification" required="false" />
-<feature name="geolocation" required="false" />
-<feature name="media" required="false" />
-<feature name="contacts" required="false" />
-<feature name="file" required="false" />
-<feature name="battery" required="false" />
-<feature name="device" required="false" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
@@ -58,5 +49,10 @@
     <gap:splash gap:platform="ios" height="768" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
-    <platform name="android" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <platform name="android">
+    </platform>
+    <platform name="ios">
+    </platform>
+    <platform name="wp8" />
 </widget>
